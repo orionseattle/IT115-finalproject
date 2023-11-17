@@ -1,3 +1,6 @@
 [submodule "Deploy"]
 	path = Deploy
 	url = https://github.com/orionseattle/IT115-finalproject-deploy
+[submodule "Assets/Edited"]
+	path = Assets/Edited
+	url = https://github.com/orionseattle/IT115-finalproject-assets
