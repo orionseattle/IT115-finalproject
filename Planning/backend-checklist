@@ -1,7 +1,8 @@
 Orion:
   -Research deployment strategies [done]
     -Most likely Kubernates on an Amazon EKS instance
-      -Need to research what this entails
+      -Need to research what this entails [done]
+        -EKS instance won't be possible. Need to host on EC2. Probably won't be using Kubernetes
 
   -Research server backend libraries
     -Most likely using something simple like Node
@@ -10,3 +11,13 @@ Orion:
     -Need a library that will serve different images based on user agent
     -Will attempt to use XYB JPEG if browser supports ICC profiles
     -May use pngquant to compress pngs for any needed transparent elements
+
+
+-Deploy EC2
+  -Use AWS academy to set up a running stance of OpenSUSE
+    -Get packages for exploring the file system over SSH
+    -Get suitable text editor (most likely Vim)
+    -Set up firewall rules
+    -Get Node.js web server up and running
+
+  -Point static IP to group4-fall2023.com and group4fall2023.com
