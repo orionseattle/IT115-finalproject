@@ -12,8 +12,7 @@ Orion:
     -Will attempt to use XYB JPEG if browser supports ICC profiles
     -May use pngquant to compress pngs for any needed transparent elements
 
-
--Deploy EC2
+-Deploy EC2 [done, used linode instead]
   -Use AWS academy to set up a running stance of OpenSUSE
     -Get packages for exploring the file system over SSH
     -Get suitable text editor (most likely Vim)
