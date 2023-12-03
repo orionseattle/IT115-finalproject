@@ -5,16 +5,21 @@ body {
 
 h1 {
   color: darkblue;
+  margin-left: 10px;
 }
 
 img{
-  width:300px;
-  height:200px;
-  border:10px solid green;
-  color:white;
-  border-radius:20px;
-  vertical-align: top;
-}
+ width:300px;
+height:200px;
+ color:white;
+border: radius 5px;
+vertical-align: top;
+margin-right:20px;
+margin-top:15px;
+float:right;
+margin-left:5px;
+margin-bottom: 20px;
+border: 5px solid #80bfff;}
 
 figcaption{
   width: 315px;
@@ -55,3 +60,4 @@ figcaption{
   }
   div{background-color: rgba(0, 0, 0, 0.2);margin-left:20px;margin-right:20px;margin: auto;
     width: 80%;}
+    ul,li {margin-bottom: 10px;}
