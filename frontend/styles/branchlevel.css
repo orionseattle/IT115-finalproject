@@ -6,24 +6,22 @@ body {
 h1 {
   color: darkblue;
   margin-left: 10px;
+  text-align: center;
 }
 
-img{
- width:300px;
-height:200px;
- color:white;
+.contained img{
+ width:400px;
+height:400px;
 border: radius 5px;
 vertical-align: top;
-margin-right:20px;
-margin-top:15px;
-float:right;
-margin-left:5px;
 margin-bottom: 20px;
-border: 5px solid #80bfff;}
+border: 5px solid #80bfff;
+margin-left: 10px;}
+.contained {text-align: center;}
 
 figcaption{
   width: 315px;
-  text-align: left;
+  text-align: center;
   margin-left: 25px;
   color:black;
   font-style: italic;
@@ -58,6 +56,19 @@ figcaption{
     background-color:  #80bfff;
     color: black;
   }
-  div{background-color: rgba(0, 0, 0, 0.2);margin-left:20px;margin-right:20px;margin: auto;
+  .main
+  {background-color: rgba(0, 0, 0, 0.2);margin-left:20px;margin-right:20px;margin: auto;
     width: 80%;}
     ul,li {margin-bottom: 10px;}
+
+    h3 {margin-left: 5px;
+    text-align: center;}
+    footer {
+      text-align: center;
+      padding: 1px;
+      background-color: #80bfff;
+      color: black;
+      clear: both;}
+      h2{color: #80bfff; font-family: "Montserrat", serif;margin-left: 10px;}
+      ul{color: white;font-family: "Montserrat", serif;}
+      figcaption {text-align: center;}
