@@ -10,7 +10,12 @@ Orion:
   -Research content management strategies
     -Need a library that will serve different images based on user agent
     -Will attempt to use XYB JPEG if browser supports ICC profiles
+      -Use JPEGLi to create XYB JPEGs
+      -Use Guetzli to optimize JPEGs (compare JPEGLi results with Guetzli to determine if separate image set can be used)
     -May use pngquant to compress pngs for any needed transparent elements
+      -pngs likely to not be used
+  
+  -Set up script to minify HTML used on page
 
 -Deploy EC2 [done, used linode instead]
   -Use AWS academy to set up a running stance of OpenSUSE
