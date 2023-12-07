@@ -1,3 +1,10 @@
+Contributers of this project include Eric Chinn, Zoe Mason, Orion Malachy, and Anthony Santos. 
+
+Our project is a very simple website hosted on a server that introduces the contributors pets to the viewer.
+
+Our intention with this project is to both improve and present the skills we have all learned over the past quarter in IT-115
+
+
 # Project layout:
 
  - ### Deploy
